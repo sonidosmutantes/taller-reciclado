@@ -11,6 +11,7 @@ Instalar binarios para Linux, Windows y OS X: [OpenStageControl releases](https:
 
 Si pyo o Supercollider están escuchando en 127.0.0.1:57120 (o 57121)
 
+(-n, --no-gui    disable default gui)
 ```
 $ open-stage-control -n -l path/to/session.js -s 127.0.0.1:5555 127.0.0.1:57120
 ```
