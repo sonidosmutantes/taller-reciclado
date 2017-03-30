@@ -39,7 +39,7 @@ t.set(\gate, 1) //on
 
 ~maxvolume = 3;
 
-// Configurado para synth.js de Open Stage Control
+//Configurado para mensajes OSC de CONTROL app (Mixer/Landscape UI)
 (
 
 OSCdef.new(
@@ -48,54 +48,48 @@ OSCdef.new(
 		arg msg;
 		t.set(\gate, msg[1]);
 	},
-	'/gate',
+	'/vol5',
 );
 
 OSCdef.new(
-	\freq1,
+	\fader1,
 	{
 		arg msg;
 		t.set(\freq, msg[1].linexp(0,1,20,400));
 	},
-	'/freq',
+	'/vol4',
 );
-
 OSCdef.new(
-	\num_harmonics,
+	\fader2,
 	{
 		arg msg;
-		t.set(\nharm, msg[1]);
-		//t.set(\nharm, msg[1].linlin(0,1,1,50));
+		t.set(\nharm, msg[1].linlin(0,1,1,50));
 	},
-	'/nharm',
+	'/vol3',
 );
-
 OSCdef.new(
-	\volume,
+	\fader3,
 	{
 		arg msg;
-		//t.set(\amp, msg[1].linexp(0,1,0.005,~maxvolume));
-		t.set(\amp, msg[1]);
+		t.set(\amp, msg[1].linexp(0,1,0.005,~maxvolume));
 	},
-	'/volume',
+	'/vol1',
 );
 OSCdef.new(
-	\pan,
+	\rotary1,
 	{
 		arg msg;
-		t.set(\pan, msg[1]);
-		//t.set(\pan, msg[1].linlin(0,1,-1,1)); //osc 0..1
-		//t.set(\pan, msg[1].linlin(0,127,-1,1)); //midi
+		t.set(\pan, msg[1].linlin(0,1,-1,1));
+		//t.set(\pan, msg[1].linlin(0,127,-1,1));
 		//msg[1].postln;
 	},
-	'/pan',
+	'/pan1',
 );
 OSCdef.new(
-	\detune,
+	\rotary2,
 	{
 		arg msg;
 		t.set(\detune, msg[1].linexp(0,1,0.01,12));
 	},
-	'/detune',
+	'/vol2',
 );
-)
