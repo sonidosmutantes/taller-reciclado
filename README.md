@@ -4,3 +4,6 @@
 * Efectos en tiempo real para modelar estos sonidos con criterios musicales
 * Exploración de nuevas interfaces controladoras y diseño de nuevos instrumentos que aprovechen los puntos anteriores
 * Implementación de prototipos utilizando Software Libre y protocolos estándar
+
+
+![](workflow.png)
