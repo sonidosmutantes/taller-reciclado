@@ -29,5 +29,5 @@
  * ...
  * ...
  
- # Varios
+ # Complementos
  * [Controllers UI](controllers_ui/SetUp.md)
