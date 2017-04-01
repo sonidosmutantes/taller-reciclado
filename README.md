@@ -10,12 +10,38 @@
 
 
 # Resumen Día 1
- * ...
- * ...
- * ...
+ * Contexto
+   * Cloud
+   * Cantidad de datos disponibles online (musicales, speech, audio en general, etc)
+   * Licencias libres. Creative Commons (CC)
+   * BigData. Analytics. Machine Learning
+ * Introducción a MIR
+   * Descriptores o features (LFC, BPM, SpectralCentroid, ..., más de 100)
+     * Extracción de metadata (conocimiento)
+     * [Una lista de descriptores posibles](http://essentia.upf.edu/documentation/algorithms_overview.html)
+     * Opción de programar nuestro propio descritpor
+   * Almacenamientoo en bases de datos
+ * Posibles usos artísticos de MIR + Engine Synthesis + Cloud
+   * Automatizar todo o no
+   * Dónde puede estar la decisión compositiva
+ * Arquitecturas distribuidas
+   * Ventajas y desventajas
+ * Diferencias entre programas de síntesis. Paradigmas
+   * SuperCollider, PureData (pd), Max/Msp, Python + Pyo
+   * Multiplataforma. Linux, Mac, Windows. Raspberry Pi
+   * Software Libre 
+ * Protocolos estándar. MIDI y OSC
+   * [Configurar OSC](controllers_ui/SetUp.md)
+   * Usar UI de OpenStageControl para enviar mensajes a Supercollider u otro.
+ * API estándar (como forma de acceso unificado)
+ * App complemento: [APICultor](https://sonidosmutantes.github.io/apicultor/)
+   * "Extraer miel de redpanal" (aproximación de BigData a las colecciones musicales)
+   * Multiplataforma
+   * Opciones: Máquina virtual o vía [Docker](https://sonidosmutantes.github.io/apicultor/docker.html).
+
 
 # Resumen Día 2
- * ...
+ * Intro a SuperCollider
  * ...
  * ...
 
@@ -30,4 +56,5 @@
  * ...
  
  # Complementos
- * [Controllers UI](controllers_ui/SetUp.md)
+ * [UI para enviar OSC](controllers_ui/SetUp.md)
+ * [APICultor](https://sonidosmutantes.github.io/apicultor/)
