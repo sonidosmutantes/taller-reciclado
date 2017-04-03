@@ -46,8 +46,8 @@
 
 # Resumen Día 2
  * Intro a SuperCollider
- * ...
- * ...
+ * Empezar a desarrollar una idea propia (mini-proyecto)
+ * Extraer descriptores de sonidos propios
 
 # Resumen Día 3
  * ...
