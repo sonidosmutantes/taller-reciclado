@@ -20,16 +20,20 @@
      * Extracción de metadata (conocimiento)
      * [Una lista de descriptores posibles](http://essentia.upf.edu/documentation/algorithms_overview.html)
      * Opción de programar nuestro propio descritpor
+     * Clusters
    * Almacenamientoo en bases de datos
  * Posibles usos artísticos de MIR + Engine Synthesis + Cloud
    * Automatizar todo o no
    * Dónde puede estar la decisión compositiva
+   * Máquina de estados "MIR"
  * Arquitecturas distribuidas
    * Ventajas y desventajas
+   * Redes locales. IP + puerto (ej: 10.0.1.10:57120)
  * Diferencias entre programas de síntesis. Paradigmas
    * SuperCollider, PureData (pd), Max/Msp, Python + Pyo
    * Multiplataforma. Linux, Mac, Windows. Raspberry Pi
    * Software Libre 
+   * Livecoding
  * Protocolos estándar. MIDI y OSC
    * [Configurar OSC](controllers_ui/SetUp.md)
    * Usar UI de OpenStageControl para enviar mensajes a Supercollider u otro.

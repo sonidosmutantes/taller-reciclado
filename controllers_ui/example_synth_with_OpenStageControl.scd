@@ -3,6 +3,11 @@
 s.boot; //start the server
 //s.quit; // quit the server
 NetAddr.langPort; //OSC
+NetAddr.localAddr; //localhost
+
+
+OSCFunc.trace //ver todos los mensajes
+OSCFunc.trace(false); // Turn posting off
 
 /*
 So I'm gonna quickly contstruct a SynthDef. An adsr envelope will control the amplitude of the sound, and the gate will be closed by default. The source of the sound will come from Blip.ar, which generates harmonic partials. I'll set a fundamental frequency, and to create a detuning feature, I'll multiply the frequency by a slow moving LFNoise1, ranging between negative and positive detune values. I'm envisioning detune as a number of semitones, so I'll use midiratio to make the output values suitable for frequency scaling. I also want to add a second argument to Blip for the number of harmonic partials to generate. I'm going to multichannel expand the noise generator, which means the enclosing Blip UGen is expanded to an array of 16 Blip generators each with a uniquely meandering frequency.
@@ -29,12 +34,12 @@ t = Synth.new(\tone, [\gate, 1])
 //t.free;
 
 //default values
-t.set(\freq, 50)
+t.set(\freq, 500)
 t.set(\pan, 0.0)
-t.set(\nharm, 20)
-t.set(\detune, 0.25)
+t.set(\nharm, 90)
+t.set(\detune, 0.34)
 t.set(\amp, 1)
-//t.set(\gate, 0) //off
+t.set(\gate, 0) //off
 t.set(\gate, 1) //on
 
 ~maxvolume = 3;
