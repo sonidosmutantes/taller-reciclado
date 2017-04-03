@@ -14,6 +14,8 @@
    * Cloud
    * Cantidad de datos disponibles online (musicales, speech, audio en general, etc)
    * Licencias libres. Creative Commons (CC)
+     * [Informe 2015](https://stateof.creativecommons.org/2015/)
+     * 4 millones de tracks de audio (+42M en video y multimedia)
    * BigData. Analytics. Machine Learning
  * Introducción a MIR
    * Descriptores o features (LFC, BPM, SpectralCentroid, ..., más de 100)
@@ -29,6 +31,7 @@
  * Arquitecturas distribuidas
    * Ventajas y desventajas
    * Redes locales. IP + puerto (ej: 10.0.1.10:57120)
+   * Network Audio
  * Diferencias entre programas de síntesis. Paradigmas
    * SuperCollider, PureData (pd), Max/Msp, Python + Pyo
    * Multiplataforma. Linux, Mac, Windows. Raspberry Pi
