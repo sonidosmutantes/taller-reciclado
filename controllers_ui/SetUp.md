@@ -37,3 +37,9 @@ Opción para celulares/tablets con Android. Desventaja: No es tán sencillo conf
 Bajar http://charlie-roberts.com/Control/ (free software) o http://hexler.net/software/touchosc para Android/iOS e instalar en el celular/tablet.
 
 Configurar http://[IP]:[PORT] de la máquina que corra SuperCollider.
+
+Para cambiar la UI, se debe hacer por URL. Para eso se puede correr un mini servicio web en la red local para proveerlos. 
+(desde el directorio CONTROL_UI e instalando la dependencia Flask)
+```
+$ ./serve_js_files.py
+```
