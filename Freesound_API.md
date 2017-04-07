@@ -21,7 +21,8 @@ Baja el .json con la información del archivo con ID 31362
 (comparar entrando por browser estando autentifcado con usuario y contraseña)
 
 ## SuperCollider
-Con Quarks.gui, buscar Freesound e instalar
+En SuperCollider >3.7 con Quarks.gui, buscar "Freesound" e instalar
+(Warning: Ubuntu 16.04 viene con SuperCollider 3.6, dónde Quarks usa Freesound2 con API discontinuada)
 
 Sino instalar a mano de [Freesound.sc @ github](https://github.com/g-roma/Freesound.sc)
 

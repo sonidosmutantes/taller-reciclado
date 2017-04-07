@@ -1,6 +1,14 @@
 // Source: https://github.com/g-roma/Freesound.sc
 // Needs curl installed
 
+/*
+With SuperCollider >3.7
+
+Quarks.gui //Install Freesound
+
+Other version: https://github.com/g-roma/Freesound.sc
+*/
+
 Server.local.boot;
 // Token Authentication
 // https://www.freesound.org/docs/api/authentication.html#token-authentication
