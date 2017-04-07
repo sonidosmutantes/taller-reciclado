@@ -9,6 +9,8 @@ API_KEY = "asga2823235r48qklasdjl3khfasdflk2"
 
 Documentación de la API: [http://www.freesound.org/docs/api/](http://www.freesound.org/docs/api/)
 
+Clientes para SuperCollider, Python, Javascript, etc: [http://www.freesound.org/docs/api/client_libs.html](http://www.freesound.org/docs/api/client_libs.html)
+
 ## Con curl (válido para todas las plataformas)
 
 Ej:
@@ -24,9 +26,10 @@ Baja el .json con la información del archivo con ID 31362
 Con Quarks.gui, buscar Freesound e instalar
 
 Sino instalar a mano de [Freesound.sc @ github](https://github.com/g-roma/Freesound.sc)
-
+```
 Quarks.install('https://github.com/g-roma/Freesound.sc');
 Quarks.install("Freesound");
+```
 
 ### Ejemplos
 
