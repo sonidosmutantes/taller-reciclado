@@ -41,3 +41,5 @@ FSSound.getSound(31362, {|f|
     ~snd["name"].postln;
 });
 ```
+
+Ver [Freesound_API_Example.scd](Freesound_API_Example.scd)
