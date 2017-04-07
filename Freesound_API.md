@@ -9,6 +9,8 @@ API_KEY = "asga2823235r48qklasdjl3khfasdflk2"
 
 Documentación de la API: [http://www.freesound.org/docs/api/](http://www.freesound.org/docs/api/)
 
+Clientes para SuperCollider, Python, Javascript, etc: [http://www.freesound.org/docs/api/client_libs.html](http://www.freesound.org/docs/api/client_libs.html)
+
 ## Con curl (válido para todas las plataformas)
 
 Ej:
@@ -25,9 +27,10 @@ En SuperCollider >3.7 con Quarks.gui, buscar "Freesound" e instalar
 (Warning: Ubuntu 16.04 viene con SuperCollider 3.6, dónde Quarks usa Freesound2 con API discontinuada)
 
 Sino instalar a mano de [Freesound.sc @ github](https://github.com/g-roma/Freesound.sc)
-
+```
 Quarks.install('https://github.com/g-roma/Freesound.sc');
 Quarks.install("Freesound");
+```
 
 ### Ejemplos
 
@@ -39,3 +42,5 @@ FSSound.getSound(31362, {|f|
     ~snd["name"].postln;
 });
 ```
+
+Ver [Freesound_API_Example.scd](Freesound_API_Example.scd)
