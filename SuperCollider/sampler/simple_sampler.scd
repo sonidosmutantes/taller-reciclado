@@ -1,14 +1,11 @@
 /*
 * Ejemplo simple de sampler
-
-
 */
 
-s.boot; //Server
-a = Buffer.read(s, "/Users/hordia/git/apicultor/data/1194.wav");
+s.boot;
 
-//a.play;
-
+~sample_path = ""; // Ejemplo: "/Users/.../Documents/samples/archivo.wav"
+a = Buffer.read(s, ~sample_path);
 //En windows usar \\ por cada \ del path
 //a.free;
 
@@ -20,13 +17,7 @@ SynthDef(\playBufMono, {| out = 0, bufnum = 0, vol=1, rate = 1 |  var scaledRate
 scaledRate = rate * BufRateScale.kr(bufnum);  player = PlayBuf.ar(1, bufnum,scaledRate, doneAction:2);  Out.ar(out, vol * player).dup }).add;
 
 x = Synth(\playBufMono, [\bufnum, a]);
-x.set(\vol, 0);
-x.set(\vol, 0.5);
-x.set(\vol, 1);
 
-
-x = Synth(\playBufMono, [\bufnum, a, \rate, 0.5]);
-//x.set(\rate, 0.5);
 
 //////////////////////////////////////////////////////////
 // Loop sample
