@@ -64,6 +64,8 @@ v = (~samples_path++v.replace("./samples/","/")).replace(" ",""); //trim spaces 
 ~buf.play
 ```
 
+Ver [APICultor_API_Example.scd](APICultor_API_Example.scd)
+
 ## Python3 simple API call
 
 ```
