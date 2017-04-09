@@ -48,11 +48,26 @@
 
 
 # Resumen Día 2
- * Intro a SuperCollider
- * Empezar a desarrollar una idea propia (mini-proyecto)
- * Extraer descriptores de sonidos propios
+ * Repaso OSC y arquitecturas. IP + Puerto.
+   * [Configurar OpenStageControl](controllers_ui/SetUp.md).
+ * Intro a [SuperCollider](http://supercollider.github.io/).
+   * Server, Buffer's y Synth's.
+     * [simple_sampler.scd](SuperCollider/simple_sampler.scd)
+   * Disparar evento con MIDI y OSC
+     * [sc_control.scd](SuperCollider/controladores/osc_control.scd)
+     * [midi_control.scd](SuperCollider/controladores/midi_control.scd)
+ * Máquina de estados MIR
+ * Aplicar técnicas de ingeniería de software en general
+   * Desarrollo iterativo e incremental (código siempre funcionando y generando un resultado).
+   * Control de versiones (git)
+   * El mismo código puede ser la documentación.
+
+
+
 
 # Resumen Día 3
+ * Empezar a desarrollar una idea propia (mini-proyecto)
+ * Extraer descriptores de sonidos propios
  * ...
  * ...
  * ...

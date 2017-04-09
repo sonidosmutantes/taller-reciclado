@@ -22,8 +22,11 @@ MIDIFunc.noteOn({ |veloc, num, chan, src|
 
     if(num == 48,{
 	        	("Bank1 / A / Pad 48").postln;
-		        x.free;
-		        x = Synth(\mutantefreeze, [\bufnum, ~bank1a, \out, ~channel, \fftwidth, ~fftwidth]);*/
+		        
+			x = Synth(\playBufMono, [\bufnum, a]);
+		        
+			//x.free;
+			//x = Synth(\mutantefreeze, [\bufnum, ~bank1a, \out, ~channel, \fftwidth, ~fftwidth]);*/
 
 /*
 	            x.get(\point, { arg value;
@@ -36,7 +39,7 @@ MIDIFunc.noteOn({ |veloc, num, chan, src|
 			    });
 */
 	});
-};
+});
 
 //Control MSG
 ~maxvol = 3;
