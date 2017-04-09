@@ -9,7 +9,7 @@
 ![](workflow.png)
 
 
-# Resumen Día 1
+# Resumen Día 1 (01/04/2017)
  * Contexto
    * Cloud
    * Cantidad de datos disponibles online (musicales, speech, audio en general, etc)
@@ -47,29 +47,33 @@
    * Opciones: Máquina virtual o vía [Docker](https://sonidosmutantes.github.io/apicultor/docker.html).
 
 
-# Resumen Día 2
+# Resumen Día 2 (08/04/2017)
  * Repaso OSC y arquitecturas. IP + Puerto.
-   * [Configurar OpenStageControl](controllers_ui/SetUp.md).
+   * [Configurar OpenStageControl](controllers_ui/SetUp.md).
  * Intro a [SuperCollider](http://supercollider.github.io/).
    * Server, Buffer's y Synth's.
      * [simple_sampler.scd](SuperCollider/simple_sampler.scd)
-   * Disparar evento con MIDI y OSC
+   * Disparar evento con MIDI y OSC.
      * [sc_control.scd](SuperCollider/controladores/osc_control.scd)
      * [midi_control.scd](SuperCollider/controladores/midi_control.scd)
- * Máquina de estados MIR
+ * Máquina de estados MIR ([Ver diagrama](state_machine.png))
+   * Como composición algorítmica.
+   * Toma de decisiones definiendo cada estado según descriptores MIR.
  * Aplicar técnicas de ingeniería de software en general
    * Desarrollo iterativo e incremental (código siempre funcionando y generando un resultado).
    * Control de versiones (git)
    * El mismo código puede ser la documentación.
 
 
-
-
-# Resumen Día 3
+# Resumen Día 3 (22/04/2017)
  * Empezar a desarrollar una idea propia (mini-proyecto)
  * Extraer descriptores de sonidos propios
- * ...
- * ...
+ * Tone Synth (ADSR, LFO noise, control de cantidad de armónicos, etc) para SuperCollider controlado por OSC.
+   * [controllers_ui/example_synth_with_OpenStageControl.scd](controllers_ui/example_synth_with_OpenStageControl.scd)
+   * [controllers_ui/OpenStageControl_UI/synth.js](controllers_ui/OpenStageControl_UI/synth.js)
+   * Opción controlar con TouchOSC o CONTROL (Android/iOS)
+ * [Freesound API](Freesound_API.md)
+ * [APICultor](APICultor_API.md)
  * ...
 
 # Resumen Día 4
