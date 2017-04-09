@@ -48,22 +48,23 @@
 
 
 # Resumen Día 2 (08/04/2017)
- * Repaso OSC y arquitecturas. IP + Puerto.
-   * [Configurar OpenStageControl](controllers_ui/SetUp.md).
- * Intro a [SuperCollider](http://supercollider.github.io/).
-   * Server, Buffer's y Synth's.
+ * Repaso OSC y arquitecturas. IP + Puerto
+   * [Configurar OpenStageControl](controllers_ui/SetUp.md)
+ * Intro a [SuperCollider](http://supercollider.github.io/)
+   * Server, Buffer's y Synth's
      * [simple_sampler.scd](SuperCollider/simple_sampler.scd)
-   * Disparar evento con MIDI y OSC.
+   * Livecoding     
+   * Disparar evento con MIDI y OSC
      * [sc_control.scd](SuperCollider/controladores/osc_control.scd)
      * [midi_control.scd](SuperCollider/controladores/midi_control.scd)
      * [freeze synth](SuperCollider/sampler/freeze_control_midi.scd)
  * Máquina de estados MIR ([Ver diagrama](state_machine.png))
-   * Como composición algorítmica.
-   * Toma de decisiones definiendo cada estado según descriptores MIR.
+   * Como composición algorítmica
+   * Toma de decisiones definiendo cada estado según descriptores MIR
  * Aplicar técnicas de ingeniería de software en general
-   * Desarrollo iterativo e incremental (código siempre funcionando y generando un resultado).
+   * Desarrollo iterativo e incremental (código siempre funcionando y generando un resultado)
    * Control de versiones (git)
-   * El mismo código puede ser la documentación.
+   * El mismo código puede ser la documentación
 
 
 # Resumen Día 3 (22/04/2017)
@@ -77,8 +78,8 @@
    * JSON vs XML
    * REST
    * Curl
-   * [Freesound API](Freesound_API.md) y Quark para SuperCollider.
-   * [APICultor](APICultor_API.md) y diferentes clientes.
+   * [Freesound API](Freesound_API.md) y Quark para SuperCollider
+   * [APICultor](APICultor_API.md) y diferentes clientes
  * ...
 
 # Resumen Día 4 (29/04/2017)
