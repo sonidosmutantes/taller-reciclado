@@ -72,8 +72,12 @@
    * [controllers_ui/example_synth_with_OpenStageControl.scd](controllers_ui/example_synth_with_OpenStageControl.scd)
    * [controllers_ui/OpenStageControl_UI/synth.js](controllers_ui/OpenStageControl_UI/synth.js)
    * Opción controlar con TouchOSC o CONTROL (Android/iOS)
- * [Freesound API](Freesound_API.md) y Quark para SuperCollider.
- * [APICultor](APICultor_API.md) y diferentes clientes.
+ * API's
+   * JSON vs XML
+   * REST
+   * Curl
+   * [Freesound API](Freesound_API.md) y Quark para SuperCollider.
+   * [APICultor](APICultor_API.md) y diferentes clientes.
  * ...
 
 # Resumen Día 4 (29/04/2017)
@@ -85,3 +89,8 @@
  # Complementos
  * [UI para enviar OSC](controllers_ui/SetUp.md)
  * [APICultor](https://sonidosmutantes.github.io/apicultor/)
+ * [SonicVisualizer](http://www.sonicvisualiser.org/) + VAMP plugins
+ * Librerias: Essentia, LibRosa.
+ * [EarSketch](https://earsketch.gatech.edu/landing/#/)
+ * IPython Notebook (Jupyter)
+ * Weka (Data Mining)
