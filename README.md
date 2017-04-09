@@ -58,7 +58,7 @@
      * [midi_control.scd](SuperCollider/controladores/midi_control.scd)
  * Máquina de estados MIR ([Ver diagrama](state_machine.png))
    * Como composición algorítmica.
-   * Toma de decisiones definiendo cada estado según descriptores MIR.
+   * Toma de decisiones definiendo cada estado según descriptores MIR.
  * Aplicar técnicas de ingeniería de software en general
    * Desarrollo iterativo e incremental (código siempre funcionando y generando un resultado).
    * Control de versiones (git)
@@ -71,15 +71,16 @@
  * Tone Synth (ADSR, LFO noise, control de cantidad de armónicos, etc) para SuperCollider controlado por OSC.
    * [controllers_ui/example_synth_with_OpenStageControl.scd](controllers_ui/example_synth_with_OpenStageControl.scd)
    * [controllers_ui/OpenStageControl_UI/synth.js](controllers_ui/OpenStageControl_UI/synth.js)
-   * Opción controlar con TouchOSC o CONTROL (Android/iOS)
- * [Freesound API](Freesound_API.md)
- * [APICultor](APICultor_API.md)
+   * Opción controlar con TouchOSC o CONTROL (Android/iOS)
+ * [Freesound API](Freesound_API.md) y Quark para SuperCollider.
+ * [APICultor](APICultor_API.md) y diferentes clientes.
  * ...
 
-# Resumen Día 4
+# Resumen Día 4 (29/04/2017)
  * ...
  * ...
  * ...
+ * Performance de cierre (19hs)
  
  # Complementos
  * [UI para enviar OSC](controllers_ui/SetUp.md)
