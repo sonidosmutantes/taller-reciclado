@@ -6,8 +6,7 @@
 
 s.boot; //Server
 a = Buffer.read(s, "/Users/hordia/git/apicultor/data/1194.wav");
-
-//a.play;
+a.play;
 
 //En windows usar \\ por cada \ del path
 //a.free;
