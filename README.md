@@ -56,6 +56,7 @@
    * Disparar evento con MIDI y OSC.
      * [sc_control.scd](SuperCollider/controladores/osc_control.scd)
      * [midi_control.scd](SuperCollider/controladores/midi_control.scd)
+     * [freeze synth](SuperCollider/sampler/freeze_control_midi.scd)
  * Máquina de estados MIR ([Ver diagrama](state_machine.png))
    * Como composición algorítmica.
    * Toma de decisiones definiendo cada estado según descriptores MIR.
