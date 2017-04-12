@@ -81,7 +81,7 @@
    * Curl
    * [Freesound API](Freesound_API.md) y Quark para SuperCollider
    * [APICultor](APICultor_API.md) y diferentes clientes
- * ...
+ * [Datasets](Datasets.md)
 
 # Resumen Día 4 (29/04/2017)
  * ...
@@ -90,6 +90,7 @@
  * Performance de cierre (19hs)
  
  # Complementos
+ * [Datasets](Datasets.md)
  * [UI para enviar OSC](controllers_ui/SetUp.md)
  * [APICultor](https://sonidosmutantes.github.io/apicultor/)
  * [SonicVisualizer](http://www.sonicvisualiser.org/) + VAMP plugins
