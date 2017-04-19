@@ -5,9 +5,7 @@
 * Exploración de nuevas interfaces controladoras y diseño de nuevos instrumentos que aprovechen los puntos anteriores
 * Implementación de prototipos utilizando Software Libre y protocolos estándar
 
-
-![](workflow.png)
-
+![](InstrNubeTI_repr.png)
 
 # Resumen Día 1 (01/04/2017)
  * Contexto
@@ -46,6 +44,7 @@
    * Multiplataforma
    * Opciones: Máquina virtual o vía [Docker](https://sonidosmutantes.github.io/apicultor/docker.html).
 
+![](workflow.png)
 
 # Resumen Día 2 (08/04/2017)
  * Repaso OSC y arquitecturas. IP + Puerto
@@ -67,6 +66,7 @@
    * Control de versiones (git)
    * El mismo código puede ser la documentación
 
+![](state_machine.png)
 
 # Resumen Día 3 (22/04/2017)
  * Empezar a desarrollar una idea propia (mini-proyecto)
