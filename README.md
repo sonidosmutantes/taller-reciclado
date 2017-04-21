@@ -82,6 +82,9 @@
    * [Freesound API](Freesound_API.md) y Quark para SuperCollider
    * [APICultor](APICultor_API.md) y diferentes clientes
  * [Datasets](Datasets.md)
+ * Introducción a Pyo.
+   * IDE (E-Pyo)
+   * Ejemplo de síntesis en Raspberry Pi
 
 ![](Apicultor_chain.png)
 
