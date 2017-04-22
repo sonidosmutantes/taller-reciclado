@@ -5,11 +5,9 @@
 * Exploración de nuevas interfaces controladoras y diseño de nuevos instrumentos que aprovechen los puntos anteriores
 * Implementación de prototipos utilizando Software Libre y protocolos estándar
 
+![](InstrNubeTI_repr.png)
 
-![](workflow.png)
-
-
-# Resumen Día 1
+# Resumen Día 1 (01/04/2017)
  * Contexto
    * Cloud
    * Cantidad de datos disponibles online (musicales, speech, audio en general, etc)
@@ -46,37 +44,64 @@
    * Multiplataforma
    * Opciones: Máquina virtual o vía [Docker](https://sonidosmutantes.github.io/apicultor/docker.html).
 
+![](workflow.png)
 
-# Resumen Día 2
- * Repaso OSC y arquitecturas. IP + Puerto.
-   * [Configurar OpenStageControl](controllers_ui/SetUp.md).
- * Intro a [SuperCollider](http://supercollider.github.io/).
-   * Server, Buffer's y Synth's.
+# Resumen Día 2 (08/04/2017)
+ * Repaso OSC y arquitecturas. IP + Puerto
+   * [Configurar OpenStageControl](controllers_ui/SetUp.md)
+ * Intro a [SuperCollider](http://supercollider.github.io/)
+   * Server, Buffer's y Synth's
      * [simple_sampler.scd](SuperCollider/simple_sampler.scd)
+   * Livecoding     
    * Disparar evento con MIDI y OSC
      * [sc_control.scd](SuperCollider/controladores/osc_control.scd)
      * [midi_control.scd](SuperCollider/controladores/midi_control.scd)
- * Máquina de estados MIR
+     * [freeze synth](SuperCollider/sampler/freeze_control_midi.scd)
+   * [Ver Curso de Supercollider para principiantes](http://cmm.cenart.gob.mx/tallerdeaudio/cursos/cursocollider/textos/curso%20de%20supercollider%20principiantes.pdf) (en español)
+ * Máquina de estados MIR ([Ver diagrama](state_machine.png))
+   * Como composición algorítmica
+   * Toma de decisiones definiendo cada estado según descriptores MIR
  * Aplicar técnicas de ingeniería de software en general
-   * Desarrollo iterativo e incremental (código siempre funcionando y generando un resultado).
+   * Desarrollo iterativo e incremental (código siempre funcionando y generando un resultado)
    * Control de versiones (git)
-   * El mismo código puede ser la documentación.
+   * El mismo código puede ser la documentación
 
+![](state_machine.png)
 
-
-
-# Resumen Día 3
+# Resumen Día 3 (22/04/2017)
  * Empezar a desarrollar una idea propia (mini-proyecto)
  * Extraer descriptores de sonidos propios
- * ...
- * ...
- * ...
+ * Tone Synth (ADSR, LFO noise, control de cantidad de armónicos, etc) para SuperCollider controlado por OSC.
+   * [controllers_ui/example_synth_with_OpenStageControl.scd](controllers_ui/example_synth_with_OpenStageControl.scd)
+   * [controllers_ui/OpenStageControl_UI/synth.js](controllers_ui/OpenStageControl_UI/synth.js)
+   * Opción controlar con TouchOSC o CONTROL (Android/iOS)
+ * API's
+   * JSON vs XML
+   * REST
+   * Curl
+   * [Freesound API](Freesound_API.md) y Quark para SuperCollider
+   * [APICultor](APICultor_API.md) y diferentes clientes
+   * Postman
+ * [Datasets](Datasets.md)
+ * Introducción a Pyo.
+   * IDE (E-Pyo)
+   * Ejemplo de síntesis en Raspberry Pi
 
-# Resumen Día 4
+![](Apicultor_chain.png)
+
+# Resumen Día 4 (29/04/2017)
  * ...
  * ...
  * ...
+ * Performance de cierre (19hs)
  
  # Complementos
+ * [Datasets](Datasets.md)
  * [UI para enviar OSC](controllers_ui/SetUp.md)
  * [APICultor](https://sonidosmutantes.github.io/apicultor/)
+ * [SonicVisualizer](http://www.sonicvisualiser.org/) + VAMP plugins
+ * Librerias: Essentia, LibRosa.
+ * [EarSketch](https://earsketch.gatech.edu/landing/#/)
+ * IPython Notebook (Jupyter)
+ * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) (Data Mining)
+ * Postman

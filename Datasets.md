@@ -1,7 +1,10 @@
 # Datasets
 
-## Audio en general
-Con licencias libres (Creative Commons, dominio público, etc)
+Con API vs sin API (descarga manual)
+
+## Audio en general con licencias libres
+
+Contenido liberado bajo Creative Commons, dominio público, etc.
 
 * [Redpanal.org](http://redpanal.org/) Música Libre y colaborativa. Argentina.
 * [Freesound.org](http://www.freesound.org/) Del MTG (Music Technology Group UPF). Cuenta con API online: [http://www.freesound.org/docs/api/](http://www.freesound.org/docs/api/)
