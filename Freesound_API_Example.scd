@@ -17,6 +17,9 @@ Server.local.boot;
 Freesound.authType = "token";// default, only needed if you changed it
 Freesound.token="<your_api_key>";
 
+
+
+
 // Oauth2 Authentication
 // https://www.freesound.org/docs/api/authentication.html#oauth2-authentication
 // Slightly more involved, here's the recommended procedure:
