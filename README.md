@@ -80,7 +80,6 @@
    * REST
    * Curl
    * [Freesound API](Freesound_API.md) y Quark para SuperCollider
-   * [APICultor](APICultor_API.md) y diferentes clientes
    * [Postman](https://www.getpostman.com/) API test & dev
  * Ejercicio: Buscar el lowlevel.pitch.max value y generar una sinusoide en base a ese valor. Otra para el valor medio (mean). Y sumar.
  * [Datasets](Datasets.md)
@@ -91,9 +90,14 @@
 ![](Apicultor_chain.png)
 
 # Resumen Día 4 (29/04/2017)
- * ...
- * ...
- * ...
+ * Ejemplos sonando
+   * Máquina de estado
+   * Interacción con API Freesound
+ * Repaso de arquitecturas propuestas  
+ * [APICultor](APICultor_API.md) Como armar algo propio.
+ * Comparación entre alternativas open-source
+ * Cómo seguir reciclando
+ * Análisis offline. SonicVisualizer + VAMP plugins
  * Performance de cierre (19hs)
  
  # Complementos
