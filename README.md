@@ -7,7 +7,7 @@
 
 ![](InstrNubeTI_repr.png)
 
-# Resumen Día 1 (01/04/2017)
+# Día 1 (01/04/2017)
  * Contexto
    * Cloud
    * Cantidad de datos disponibles online (musicales, speech, audio en general, etc)
@@ -46,7 +46,7 @@
 
 ![](workflow.png)
 
-# Resumen Día 2 (08/04/2017)
+# Día 2 (08/04/2017)
  * Repaso OSC y arquitecturas. IP + Puerto
    * [Configurar OpenStageControl](controllers_ui/SetUp.md)
  * Intro a [SuperCollider](http://supercollider.github.io/)
@@ -68,7 +68,7 @@
 
 ![](state_machine.png)
 
-# Resumen Día 3 (22/04/2017)
+# Día 3 (22/04/2017)
  * Empezar a desarrollar una idea propia (mini-proyecto)
  * Extraer descriptores de sonidos propios
  * Tone Synth (ADSR, LFO noise, control de cantidad de armónicos, etc) para SuperCollider controlado por OSC.
@@ -89,7 +89,7 @@
 
 ![](Apicultor_chain.png)
 
-# Resumen Día 4 (29/04/2017)
+# Día 4 (29/04/2017)
  * Ejemplos sonando
    * Máquina de estado
    * Interacción con API Freesound
@@ -98,6 +98,7 @@
  * Comparación entre alternativas open-source
  * Cómo seguir reciclando
  * Análisis offline. SonicVisualizer + VAMP plugins
+ * Efectos en tiempo real. SuperCollider y Pyo.
  * Performance de cierre (19hs)
  
  # Complementos
