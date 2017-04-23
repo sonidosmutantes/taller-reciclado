@@ -81,11 +81,12 @@
    * Curl
    * [Freesound API](Freesound_API.md) y Quark para SuperCollider
    * [APICultor](APICultor_API.md) y diferentes clientes
-   * Postman
+   * [Postman](https://www.getpostman.com/) API test & dev
+ * Ejercicio: Buscar el lowlevel.pitch.max value y generar una sinusoide en base a ese valor. Otra para el valor medio (mean). Y sumar.
  * [Datasets](Datasets.md)
  * Introducción a Pyo.
    * IDE (E-Pyo)
-   * Ejemplo de síntesis en Raspberry Pi
+   * Ejemplo de síntesis en Raspberry Pi
 
 ![](Apicultor_chain.png)
 
@@ -102,6 +103,6 @@
  * [SonicVisualizer](http://www.sonicvisualiser.org/) + VAMP plugins
  * Librerias: Essentia, LibRosa.
  * [EarSketch](https://earsketch.gatech.edu/landing/#/)
- * IPython Notebook (Jupyter)
+ * [IPython Notebook (Jupyter)](https://ipython.org/notebook.html) Python interactivo
  * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) (Data Mining)
- * Postman
+ * [Postman](https://www.getpostman.com/) API test & dev
