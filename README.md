@@ -106,7 +106,7 @@
  * [UI para enviar OSC](controllers_ui/SetUp.md)
  * [APICultor](https://sonidosmutantes.github.io/apicultor/)
  * [SonicVisualizer](http://www.sonicvisualiser.org/) + VAMP plugins
- * Librerias: Essentia, LibRosa.
+ * Librerias: [Essentia](http://essentia.upf.edu/), [LibRosa](https://github.com/librosa/librosa).
  * [EarSketch](https://earsketch.gatech.edu/landing/#/)
  * [IPython Notebook (Jupyter)](https://ipython.org/notebook.html) Python interactivo
  * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) (Data Mining)
