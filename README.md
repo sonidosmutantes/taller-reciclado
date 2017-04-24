@@ -75,7 +75,7 @@
    * [controllers_ui/example_synth_with_OpenStageControl.scd](controllers_ui/example_synth_with_OpenStageControl.scd)
    * [controllers_ui/OpenStageControl_UI/synth.js](controllers_ui/OpenStageControl_UI/synth.js)
    * Opción controlar con TouchOSC o CONTROL (Android/iOS)
- * API's
+ * ¿Qué es una API? Ejemplos
    * JSON vs XML
    * REST
    * Curl
@@ -83,6 +83,7 @@
    * [Postman](https://www.getpostman.com/) API test & dev
  * Ejercicio: Buscar el lowlevel.pitch.max value y generar una sinusoide en base a ese valor. Otra para el valor medio (mean). Y sumar.
  * [Datasets](Datasets.md)
+ * Git. Repositorios de código.
  * Introducción a Pyo.
    * IDE (E-Pyo)
    * Ejemplo de síntesis en Raspberry Pi
