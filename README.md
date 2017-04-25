@@ -91,15 +91,17 @@
 ![](Apicultor_chain.png)
 
 # Día 4 (29/04/2017)
+ * El reciclado sonoro según MIR
  * Ejemplos sonando
-   * Máquina de estado
-   * Interacción con API Freesound
+   * Máquina de estado
+   * Interacción con API Freesound
  * Repaso de arquitecturas propuestas  
  * [APICultor](APICultor_API.md) Como armar algo propio.
  * Comparación entre alternativas open-source
  * Cómo seguir reciclando
  * Análisis offline. SonicVisualizer + VAMP plugins
  * Efectos en tiempo real. SuperCollider y Pyo.
+ ---
  * Performance de cierre (19hs)
  
  # Complementos
@@ -112,3 +114,4 @@
  * [IPython Notebook (Jupyter)](https://ipython.org/notebook.html) Python interactivo
  * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) (Data Mining)
  * [Postman](https://www.getpostman.com/) API test & dev
+ * [scikit-learn](http://scikit-learn.org/stable/) Machine Learning in Python
