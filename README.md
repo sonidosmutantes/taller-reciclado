@@ -91,7 +91,9 @@
 ![](Apicultor_chain.png)
 
 # Día 4 (29/04/2017)
- * El reciclado sonoro según MIR
+ * El reciclado sonoro según MIR.
+   * Music Information Retrieval y Big Data aplicados para componer ambientes sonoros con sonidos libres de la web RedPanal.org
+   * Slides: https://github.com/sonidosmutantes/taller-reciclado/blob/master/M%C3%A1quinaDeEstadosMIRAmbientesSonorosRedPanal.pdf
  * Ejemplos sonando
    * Máquina de estado
    * Interacción con API Freesound
