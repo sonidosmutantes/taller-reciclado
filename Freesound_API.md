@@ -1,6 +1,7 @@
 # Freesound API
 
 Sacar una API KEY para poder autenticar con token: [APIv2 APPLY](http://www.freesound.org/apiv2/apply/)
+(para callback poner: https://www.freesound.org/home/app_permissions/permission_granted/. )
 
 Obtendremos un string de varios caracteres, algo del estilo:
 ```
