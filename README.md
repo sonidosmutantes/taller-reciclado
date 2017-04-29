@@ -104,6 +104,7 @@
  * Análisis offline. SonicVisualizer + VAMP plugins
  * Efectos en tiempo real. SuperCollider y Pyo.
  * Docker
+ * #live-coding-argentina: [https://livecode.slack.com/](livecode.slack.com)
  ---
  * Performance de cierre (19hs)
  
