@@ -103,6 +103,7 @@
  * Cómo seguir reciclando
  * Análisis offline. SonicVisualizer + VAMP plugins
  * Efectos en tiempo real. SuperCollider y Pyo.
+ * Docker
  ---
  * Performance de cierre (19hs)
  
