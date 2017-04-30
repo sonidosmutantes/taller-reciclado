@@ -103,8 +103,9 @@
  * Cómo seguir reciclando
  * Análisis offline. SonicVisualizer + VAMP plugins
  * Efectos en tiempo real. SuperCollider y Pyo.
- * Docker
- * #live-coding-argentina: [https://livecode.slack.com/](livecode.slack.com)
+ * (Docker)[https://github.com/sonidosmutantes/apicultor/blob/master/docker.md]
+ * \#live-coding-argentina: [livecode.slack.com]([https://livecode.slack.com/]) Invitación: http://live-code-slack.herokuapp.com/
+   *  * [All things livecoding (recursos sobre livecoding)](https://github.com/lvm/awesome-livecoding)
  ---
  * Performance de cierre (19hs)
  
@@ -119,3 +120,4 @@
  * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) (Data Mining)
  * [Postman](https://www.getpostman.com/) API test & dev
  * [scikit-learn](http://scikit-learn.org/stable/) Machine Learning in Python
+
