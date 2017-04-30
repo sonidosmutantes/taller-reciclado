@@ -104,8 +104,8 @@
  * Análisis offline. SonicVisualizer + VAMP plugins
  * Efectos en tiempo real. SuperCollider y Pyo.
  * (Docker)[https://github.com/sonidosmutantes/apicultor/blob/master/docker.md]
- * \#live-coding-argentina: [livecode.slack.com]([https://livecode.slack.com/]) Invitación: http://live-code-slack.herokuapp.com/
-   *  * [All things livecoding (recursos sobre livecoding)](https://github.com/lvm/awesome-livecoding)
+ * \#live-coding-argentina: [livecode.slack.com](http://livecode.slack.com/). Invitación: http://live-code-slack.herokuapp.com/
+   * [All things livecoding (recursos sobre livecoding)](https://github.com/lvm/awesome-livecoding)
  ---
  * Performance de cierre (19hs)
  
