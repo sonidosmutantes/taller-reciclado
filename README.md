@@ -97,6 +97,7 @@
  * Ejemplos sonando
    * Máquina de estado
    * Interacción con API Freesound
+   * Ejemplo sonoro: "[Feature Thinking](https://soundcloud.com/hern-n-ordiales/feature-thinking)"
  * Repaso de arquitecturas propuestas  
  * [APICultor](APICultor_API.md) Como armar algo propio.
  * Comparación entre alternativas open-source
@@ -119,4 +120,5 @@
  * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) (Data Mining)
  * [Postman](https://www.getpostman.com/) API test & dev
  * [scikit-learn](http://scikit-learn.org/stable/) Machine Learning in Python
+ * [Pyo](http://ajaxsoundstudio.com/software/pyo/)
 
