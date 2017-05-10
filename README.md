@@ -107,7 +107,7 @@
  * [Docker](https://github.com/sonidosmutantes/apicultor/blob/master/docker.md)
  * \#live-coding-argentina: [livecode.slack.com](http://livecode.slack.com/). Invitación: http://live-code-slack.herokuapp.com/
    * [All things livecoding (recursos sobre livecoding)](https://github.com/lvm/awesome-livecoding)
-
+ * [Proyecto de reciclado de sonidos libres de la web en RedPanal.org](http://redpanal.org/p/reciclado-de-samples/) (sonido + referencia al original).
  
  # Complementos
  * [Datasets](Datasets.md)
