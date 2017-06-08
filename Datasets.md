@@ -22,3 +22,4 @@ Contenido liberado bajo Creative Commons, dominio público, etc.
 
 * https://github.com/caesar0301/awesome-public-datasets
 * https://www.kaggle.com/datasets
+* http://datosabiertos.aeroterra.com/ (geo referencias)
