@@ -8,6 +8,7 @@ Contenido liberado bajo Creative Commons, dominio público, etc.
 
 * [Redpanal.org](http://redpanal.org/) Música Libre y colaborativa. Argentina.
 * [Freesound.org](http://www.freesound.org/) Del MTG (Music Technology Group UPF). Cuenta con API online: [http://www.freesound.org/docs/api/](http://www.freesound.org/docs/api/)
+* [URBAN SOUND DATASETS](https://serv.cusp.nyu.edu/projects/urbansounddataset/)
 * SoundCloud (chequear contenido CC)
 * http://www.charm.rhul.ac.uk Centre History and Analysis of Recorded Music
 * [https://webgate.ec.europa.eu/sr/](https://webgate.ec.europa.eu/sr/) Discursos europeos
