@@ -14,11 +14,11 @@ Si pyo o Supercollider están escuchando en 127.0.0.1:57120 (o 57121)
 
 Desde consola (en linux) (-n, --no-gui    disable default gui):
 ```
-$ open-stage-control -n -l path/to/session.js -s 127.0.0.1:5555 127.0.0.1:57120
+$ open-stage-control -n -l path/to/session.js -s 127.0.0.1:57120
 ```
 
-En MAC, en la interfaz de configuración, en la parte de *sync*, poner: 127.0.0.1:5555 127.0.0.1:57120
-(ojo hay puede haber un bug que al reiniciar agregue una ',' que no va y hace que deje de funcionar)
+En MAC, en la interfaz de configuración, en la parte de *sync*, poner: 127.0.0.1:57120
+(ojo que si hay más de una ip destino puede haber un bug que al reiniciar agregue una ',' que no va y hace que deje de funcionar)
 
 En SuperCollider, para activar el seguimiento de mensajes OSC:
 OSCFunc.trace //ver todos los mensajes
