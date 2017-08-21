@@ -122,3 +122,6 @@
  * [scikit-learn](http://scikit-learn.org/stable/) Machine Learning in Python
  * [Pyo](http://ajaxsoundstudio.com/software/pyo/) Dedicated Python module for digital signal processing
 
+# Fotos
+
+Taller Edición 2017: https://www.flickr.com/photos/casanacionaldelbicentenario/sets/72157682929987215/with/33394031653/
